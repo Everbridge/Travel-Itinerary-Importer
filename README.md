@@ -1,5 +1,3 @@
-# Everbridge Travel Itinerary Importer
-
 ## Prerequisite
 
 The tool requires EB Suite Account or Organization Administrator access with API permission.
