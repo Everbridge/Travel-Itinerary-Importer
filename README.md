@@ -17,7 +17,7 @@ The tool requires EB Suite Account or Organization Administrator access with API
 
 2. Launch the Travel Itinerary Importer. Click the `Select` button to open the itinerary template file.
 
-   - Check the `Auto-convert all country names to common usage` option to convert the country to the auto that required by the Everbridge service.
+   - Check the `Auto-convert all country names to common usage` option to convert the country to the code that required by the Everbridge service.
 
 3. Click the `Preview` button and go to `Logs` tab to preview the data.
 
