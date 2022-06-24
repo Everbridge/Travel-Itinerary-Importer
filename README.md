@@ -4,12 +4,12 @@ The tool requires EB Suite Account or Organization Administrator access with API
 
 ## Download the Tool
 
-- Microsoft Windows: [ItineraryImporter-Windows-v20220623.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20220623/ItineraryImporter-Windows-v20220623.zip)
-- Apple macOS (Intel): [ItineraryImporter-macOS-v20220623.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20220623/ItineraryImporter-macOS-v20220623.zip)
+- Microsoft Windows: [ItineraryImporter-Windows-v20220624.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20220624/ItineraryImporter-Windows-v20220624.zip)
+- Apple macOS (Intel): [ItineraryImporter-macOS-v20220624.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20220624/ItineraryImporter-macOS-v20220624.zip)
 
 ## Itinerary Template
 
-[Itinerary.xlsx](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20220623/Itinerary.xlsx)
+[Itinerary.xlsx](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20220624/Itinerary.xlsx)
 
 ## User Guide
 
