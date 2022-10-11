@@ -5,6 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="shortcut icon" href="https://everbridge.github.io/E-Learning-Portal/favicon.png" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
@@ -15,21 +16,15 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          {% endif %}
-
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
-        </header>
+      <header class="inner">
+        <p class="site-logo">
+          <a href="https://www.everbridge.com/" title="Everbridge" rel="home">
+            <img src="https://www.everbridge.com/wp-content/uploads/Everbridge-Logo-2019-FullColor-RGB.svg" alt="Everbridge">
+          </a>
+        </p>
+        <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      </header>
     </div>
 
     <!-- MAIN CONTENT -->
@@ -42,23 +37,12 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>
+        <p class="site-logo">
             <a href="https://www.everbridge.com/" title="Everbridge" rel="home">
-                <img src="https://www.everbridge.com/wp-content/uploads/Everbridge-Logo-2019-White-RGB.svg" alt="Everbridge" style="width: 200px;box-shadow:none;">
+                <img src="https://www.everbridge.com/wp-content/uploads/Everbridge-Logo-2019-White-RGB.svg" alt="Everbridge">
             </a>
         </p>
-        <p class="copyright">©2022 Everbridge. All&nbsp;rights&nbsp;reserved.<br>
-            <a href="https://www.everbridge.com/about/legal/">
-                <strong>Legal,&nbsp;security,&nbsp;privacy</strong>
-            </a>,&nbsp;
-            <a href="https://www.everbridge.com/about/legal/cookie-policy/" target="_self">
-                <strong>cookie policy</strong>
-            </a>
-            <strong>&nbsp;&amp;&nbsp;</strong>
-            <a href="https://www.everbridge.com/about/legal/acceptable-use-policy/">
-                <strong>acceptable&nbsp;use&nbsp;policy</strong>
-            </a>
-        </p>
+        <p class="copyright">©2022 Everbridge. All&nbsp;rights&nbsp;reserved.&nbsp;<a href="https://www.everbridge.com/about/legal/"><strong>Legal,&nbsp;security,&nbsp;privacy</strong></a>,&nbsp;<a href="https://www.everbridge.com/about/legal/cookie-policy/" target="_self"><strong>cookie policy</strong></a><strong>&nbsp;&amp;&nbsp;</strong><a href="https://www.everbridge.com/about/legal/acceptable-use-policy/"><strong>acceptable&nbsp;use&nbsp;policy</strong></a></p>
       </footer>
     </div>
   </body>
