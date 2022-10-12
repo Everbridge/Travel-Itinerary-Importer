@@ -3,51 +3,123 @@
 
 @import "jekyll-theme-slate";
 
+body {
+  background-color: white;
+}
+
 .inner {
   padding: 10px;
-}
-
-#header_wrap .inner {
-  padding: 20px 10px 10px 10px;
-}
-
-#main_content {
-  padding-top: 20px;
-}
-
-.inner {
   max-width: 960px;
 }
 
-.site-logo > a > img {
-  width: 200px;
-  box-shadow: none;
+sup {
+  vertical-align: super;
+  font-size: smaller;
 }
 
-.copyright {
-  margin: 0;
+#header_wrap {
+  #logo {
+    background: white;
+    .site-logo > a > img {
+      width: 200px;
+      box-shadow: none;
+      border: none;
+      padding: 0 0 0 0;
+    }
+  }
+  .inner {
+    padding: 10px 10px 10px 10px;
+  }
+  header {
+    #header_bg {
+      background: white
+        url(https://everbridge.github.io/Travel-Itinerary-Importer/assets/images/Homepage-Hero-Protect-What-Matters-Most-1.jpg)
+        no-repeat center right;
+      background-size: cover;
+      #site-title {
+        background-color: rgba(41, 45, 47, 0.8);
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 30px;
+        max-width: 65%;
+        clip-path: polygon(
+          0 0,
+          0 100%,
+          calc(100% - 60px) 100%,
+          100% calc(100% - 60px),
+          100% 0
+        );
+      }
+    }
+  }
 }
 
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
+#main_content_wrap {
+  border-top: none;
+  background-color: white;
+  #main_content {
+    padding-top: 10px;
+    p img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+    }
+  }
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+#footer_wrap {
+  background-color: #34383a;
+  .site-logo > a > img {
+    width: 200px;
+    box-shadow: none;
+    border: none;
+  }
+  .copyright {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    a {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+    }
+  }
 }
 
-#main_content p img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (max-width: 480px) {
+  #header_wrap {
+    .inner {
+      padding: 5px 10px 5px 10px;
+    }
+    header {
+      #header_bg {
+        #site-title {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          padding: 20px;
+          max-width: 80%;
+          sup {
+            vertical-align: super;
+            font-size: smaller;
+          }
+        }
+      }
+    }
+  }
 }
