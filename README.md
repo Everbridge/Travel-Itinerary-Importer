@@ -26,4 +26,4 @@
    - The user must have API access, please contact support or your account administrator for more information.
    - Check the `Create new Contacts if no match is found` option to enable contact creation.
 
-![ItineraryImporter](./image/ItineraryImporter.png)
+![ItineraryImporter](/assets/images/ItineraryImporter.webp)

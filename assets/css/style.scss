@@ -33,7 +33,7 @@ sup {
   header {
     #header_bg {
       background: white
-        url(https://everbridge.github.io/Travel-Itinerary-Importer/assets/images/Homepage-Hero-Protect-What-Matters-Most-1.jpg)
+        url(/assets/images/Homepage-Hero-Protect-What-Matters-Most-1.jpg)
         no-repeat center right;
       background-size: cover;
       #site-title {
@@ -64,6 +64,7 @@ sup {
       margin-left: auto;
       margin-right: auto;
       padding-top: 20px;
+      box-shadow: none;
     }
   }
   .embed-container {
