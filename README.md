@@ -1,8 +1,8 @@
 ## Download the Tool
 
 - Microsoft Windows: [ItineraryImporter-Windows-v20240118.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240118/ItineraryImporter-Windows-v20240118.zip)
-- Apple macOS (ARM64): [ItineraryImporter-macOS-arm64-v20240118.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240118/ItineraryImporter-macOS-arm64-v20240118.zip)
-- Apple macOS (x86_64): [ItineraryImporter-macOS-x86_64-v20240118.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240118/ItineraryImporter-macOS-x86_64-v20240118.zip)
+- Apple macOS (Apple Silicon): [ItineraryImporter-macOS-arm64-v20240118.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240118/ItineraryImporter-macOS-arm64-v20240118.zip)
+- Apple macOS (Intel): [ItineraryImporter-macOS-x86_64-v20240118.zip](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240118/ItineraryImporter-macOS-x86_64-v20240118.zip)
 
 ## Itinerary Template
 
