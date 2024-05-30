@@ -8,6 +8,8 @@
 
 [Itinerary.xlsx](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240530/Itinerary.xlsx)
 
+**Note:** All supported time zones are added to the template.
+
 ## User Guide
 
 1. Open the itinerary template file and prepare the itineraries.
