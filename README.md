@@ -6,7 +6,7 @@
 
 ## Itinerary Template
 
-[Itinerary.xlsx](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240118/Itinerary.xlsx)
+[Itinerary.xlsx](https://github.com/Everbridge/Travel-Itinerary-Importer/releases/download/rel-20240530/Itinerary.xlsx)
 
 ## User Guide
 
